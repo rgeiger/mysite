@@ -62,6 +62,10 @@ nav ul li a:hover{
 	color: maroon;
 }
 
+ul li{
+	list-style: none;
+}
+
 aside{
 	float: right;
 }
