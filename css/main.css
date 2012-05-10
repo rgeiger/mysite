@@ -5,7 +5,13 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, p, li{
+
+	font-family: Oxygen, Arial, serif; 
 	color: white;
+}
+
+p, ol{
+	font-size: 11px;
 }
 
 a{
@@ -54,8 +60,8 @@ section{
 	width: 600px;
 	clear: both;
 	float: left;
-	background: grey;
-	padding: 10px;
+	background: darkblue;
+	padding: 20px;
 }
 
 .albums{
