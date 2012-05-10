@@ -7,11 +7,10 @@ body{
 header{
 	width: 790px;
 	height: 150px;
-	background-image:url('../images/header_bg.png');
+	background: url('../images/header_bg.png');
 }
 
 h1, h2, h3, h4, h5, h6, p, li{
-
 	font-family: Oxygen, Arial, serif; 
 	color: white;
 }
@@ -67,7 +66,8 @@ ul li{
 }
 
 aside{
-	float: right;
+	padding: 20px;
+	margin-left:20px;
 }
 
 section{
@@ -76,6 +76,11 @@ section{
 	float: left;
 	background: #501B1F;
 	padding: 20px;
+}
+
+#galary{
+	width: 600px;
+	float: left;
 }
 
 .albums{
@@ -87,7 +92,8 @@ section{
 
 #sitemap{
 	width: 790px;
-	background: black;	
+	background: black;
+	float: left;	
 }
 
 footer{
