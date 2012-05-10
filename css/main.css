@@ -1,0 +1,34 @@
+body{
+	
+	width: 790px;
+	margin: 0 auto;
+	background: white;
+}
+#logo{
+	float:left;
+}
+
+nav, ul{
+	list-style-type: none;
+	float: left;		
+}
+
+aside{
+	float: right;
+}
+
+section{
+	width: 526px;
+	clear: both;
+	float: left;
+}
+
+#sitemap{
+	width: 790px;
+}
+
+
+
+footer{
+	clear: both;
+}
