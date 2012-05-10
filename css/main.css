@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, p, li{
 	color: white;
 }
 
+h3{
+	text-shadow: 2px 2px grey;
+}
+
 p, ol{
 	font-size: 11px;
 }
