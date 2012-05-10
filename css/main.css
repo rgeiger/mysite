@@ -1,19 +1,50 @@
 body{
-	
 	width: 790px;
 	margin: 0 auto;
 	background: white;
 }
+
+header{
+	background-color: black;
+	height: 200px
+}
+
+
 #logo{
 	float:left;
 }
 
-nav, ul{
-	list-style-type: none;
-	float: left;		
+nav{
+	background: black;
+	width: 790px;
+	float: right;
 }
 
+nav ul li{
+	list-style: none;	
+	display: inline;	
+	margin-right: 30px;
+	color: white;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:visited{
+	color: silver;
+}
+
+nav ul li a:hover{
+	color: lightblue;
+}
+
+
+
+
 aside{
+	background: red;
 	float: right;
 }
 
@@ -25,6 +56,7 @@ section{
 
 #sitemap{
 	width: 790px;
+	
 }
 
 
