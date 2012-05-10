@@ -4,6 +4,13 @@ body{
 	background: black;
 }
 
+header{
+	width: 790px;
+	height: 150px;
+	background: blue;
+	background-image:url('../images/header_bg.png');
+}
+
 h1, h2, h3, h4, h5, h6, p, li{
 
 	font-family: Oxygen, Arial, serif; 
@@ -67,7 +74,7 @@ section{
 .albums{
 	
 	float: left;
-	padding: 5px;
+	padding-right: 10px;
 	
 }
 
