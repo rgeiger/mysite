@@ -7,7 +7,6 @@ body{
 header{
 	width: 790px;
 	height: 150px;
-	background: blue;
 	background-image:url('../images/header_bg.png');
 }
 
@@ -67,7 +66,7 @@ section{
 	width: 600px;
 	clear: both;
 	float: left;
-	background: darkblue;
+	background: #501B1F;
 	padding: 20px;
 }
 
