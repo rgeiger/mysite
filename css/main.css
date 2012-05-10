@@ -4,6 +4,10 @@ body{
 	background: white;
 }
 
+h1, h2, h3, h4, h5, h6, p{
+	color: white;
+}
+
 header{
 	background-color: black;
 	height: 200px
@@ -40,26 +44,30 @@ nav ul li a:hover{
 	color: lightblue;
 }
 
-
-
-
 aside{
 	background: red;
 	float: right;
 }
 
 section{
-	width: 526px;
+	width: 600px;
 	clear: both;
 	float: left;
+	background: grey;
+}
+
+.albums{
+	height: 150px;
+	width: 150px;
+	float: left;
+	padding: 10px;
+	border: 2px;
+	border: white;
 }
 
 #sitemap{
-	width: 790px;
-	
+	width: 790px;	
 }
-
-
 
 footer{
 	clear: both;
