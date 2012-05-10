@@ -1,25 +1,27 @@
 body{
 	width: 790px;
 	margin: 0 auto;
-	background: white;
+	background: black;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, li{
 	color: white;
 }
 
-header{
-	background-color: black;
-	height: 200px
+a{
+	color: white;
+	text-decoration: underline;
 }
 
+a:hover{
+	text-decoration: none;
+}
 
 #logo{
 	float:left;
 }
 
 nav{
-	background: black;
 	width: 790px;
 	float: right;
 }
@@ -41,11 +43,10 @@ nav ul li a:visited{
 }
 
 nav ul li a:hover{
-	color: lightblue;
+	color: maroon;
 }
 
 aside{
-	background: red;
 	float: right;
 }
 
@@ -54,19 +55,19 @@ section{
 	clear: both;
 	float: left;
 	background: grey;
+	padding: 10px;
 }
 
 .albums{
-	height: 150px;
-	width: 150px;
+	
 	float: left;
-	padding: 10px;
-	border: 2px;
-	border: white;
+	padding: 5px;
+	
 }
 
 #sitemap{
-	width: 790px;	
+	width: 790px;
+	background: black;	
 }
 
 footer{
