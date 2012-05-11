@@ -109,7 +109,16 @@ section{
 #galary ul li{
 	list-style: none;
 	float: left;
-	
+	margin-left: 15px;	
+}
+
+#galary ul li a{
+	border: 5px solid #fff;
+	display: block;
+}
+
+#galary ul li a:hover{
+	border-color: maroon;
 }
 
 #sitemap{
