@@ -11,12 +11,12 @@ header{
 }
 
 h1, h2, h3, h4, h5, h6, p, li{
-	font-family: Oxygen, Arial, serif; 
 	color: white;
 }
 
 h3{
 	text-shadow: 2px 2px grey;
+	color: white;
 }
 
 p, ol{
@@ -62,12 +62,14 @@ nav ul li a:hover{
 }
 
 ul li{
-	list-style: none;
+	list-style: square;
 }
 
 aside{
-	padding: 20px;
-	margin-left:20px;
+	width: 200px;
+	height: 600px;
+	background: red;
+	display: block;
 }
 
 section{
@@ -75,12 +77,8 @@ section{
 	clear: both;
 	float: left;
 	background: #501B1F;
-	padding: 20px;
-}
-
-#galary{
-	width: 600px;
-	float: left;
+	padding: 10px;
+	margin-right: 35px;
 }
 
 .albums{
