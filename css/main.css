@@ -97,7 +97,19 @@ section{
 #galary{
 	width: 600px;
 	height: 200px;
-	background: blue;
+	background: black;
+}
+
+#galary ul {
+	border: 1px solid #fff;
+	overflow: hidden;
+	padding: 5px;
+}
+
+#galary ul li{
+	list-style: none;
+	float: left;
+	
 }
 
 #sitemap{
