@@ -11,6 +11,7 @@ header{
 }
 
 h1, h2, h3, h4, h5, h6, p, li{
+	font-family: "Oxygen", helvetica, serif;
 	color: white;
 }
 
@@ -38,7 +39,7 @@ a:hover{
 
 nav{
 	width: 790px;
-	float: right;
+	float: left;
 }
 
 nav ul li{
@@ -89,9 +90,16 @@ section{
 }
 
 #sitemap{
-	width: 790px;
-	background: black;
+	
+	width: 600px;
+	height: 200px;
 	float: left;	
+}
+
+#sitemap ul{
+	font-size: 12px;
+	display: inline;
+	float: left;
 }
 
 footer{
