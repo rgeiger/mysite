@@ -69,8 +69,9 @@ ul li{
 aside{
 	width: 200px;
 	height: 600px;
-	background: red;
+	background: black;
 	display: block;
+	float: right;
 }
 
 section{
@@ -82,18 +83,34 @@ section{
 	margin-right: 35px;
 }
 
+#about{
+	-moz-column-count:3; /* Firefox */
+    -webkit-column-count:3; /* Safari and Chrome */
+    column-count:3;
+}
+
 .albums{
-	
 	float: left;
 	padding-right: 10px;
-	
+}
+
+#galary{
+	width: 600px;
+	height: 200px;
+	background: blue;
 }
 
 #sitemap{
-	
 	width: 600px;
-	height: 200px;
-	float: left;	
+	height: 175px;
+	background-color:#ffffff;
+    border:1px solid black;
+    opacity:0.2;
+    filter:alpha(opacity=60); /* For IE8 and earlier */	
+}
+
+#sitemap li, h4{
+    color: black;
 }
 
 #sitemap ul{
