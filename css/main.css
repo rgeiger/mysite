@@ -1,9 +1,9 @@
 html {
-	background: white;
+	background: ivory;
 }
 
 body {
-	background: white;
+	background: aliceblue;
 	width: 980px;
 	height: 1000px; 
 	margin: auto;
@@ -12,13 +12,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 30px;
+	margin: 30px 0px 0px 30px;
 	padding: 0px 0px 0px 0px;
 }
 
 p {
-	margin: 30px;
-	padding: 0px 0px 10px 20px;
+	color: black;
+	margin: 20px 30px 0px 30px;
+	padding: 0px 0px 0px 0px;
 }
 
 header {
@@ -82,6 +83,20 @@ aside {
 	float: left;
 }
 
+aside a {
+	color: black;
+}
+
+aside a:hover {
+	color: maroon;
+}
+
+aside ul li {
+	float: left;
+	margin-right: 10px;
+	list-style: none;
+}
+
 ol {
 	margin: 30px;
 }
@@ -94,6 +109,7 @@ ol {
 
 .albums{
 	float: left;
+	padding: 20px 10px 0px 30px;
 }
 
 #galary {
@@ -106,14 +122,16 @@ ol {
 }
 
 #galary ul {
-	
+	list-style: none;
+	padding: 0px;
+	margin-left: 30px;
 }
 
 #galary ul li{
 	height: 35px
 	list-style: none;
 	float: left;
-	margin-left: 15px;	
+	margin-right: 25px;	
 }
 
 #galary ul li a{
