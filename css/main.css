@@ -23,6 +23,7 @@ p {
 
 header {
 	background: lightblue;
+	background-image: url(../images/header_bg.png);	
 	width: 980px;
 }
 
