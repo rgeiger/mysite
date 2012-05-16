@@ -1,86 +1,88 @@
-body{
-	width: 790px;
-	margin: 0 auto;
+html {
+	background: white;
+}
+
+body {
+	background: white;
+	width: 980px;
+	height: 1000px; 
+	margin: auto;
+	padding: 0px 10px 0px 10px;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 30px;
+	padding: 0px 0px 0px 0px;
+}
+
+p {
+	margin: 30px;
+	padding: 0px 0px 10px 20px;
+}
+
+header {
+	background: lightblue;
+	width: 980px;
+}
+
+nav {
 	background: black;
+	padding: 0px;
+	margin: 0px;
 }
 
-header{
-	width: 790px;
-	height: 150px;
-	background: url('../images/header_bg.png');
+nav ul {
+	width: 700px;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p, li{
-	font-family: "Oxygen", helvetica, serif;
-	color: white;
-}
-
-h3{
-	text-shadow: 2px 2px grey;
-	color: white;
-}
-
-p, ol{
-	font-size: 11px;
-}
-
-a{
-	color: white;
-	text-decoration: underline;
-}
-
-a:hover{
-	text-decoration: none;
-}
-
-#logo{
-	float:left;
-}
-
-nav{
-	width: 790px;
+nav ul li {
+	width: 100px;
+	height: 50px;
 	float: left;
+	padding: 0px;
+	overflow: hidden;
 }
 
-nav ul li{
-	list-style: none;	
-	display: inline;	
-	margin-right: 30px;
-	color: white;
-}
-
-nav ul li a{
-	color: white;
+nav ul li a {
+	color: lightgrey;
 	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	display: block;
 }
 
-nav ul li a:visited{
-	color: silver;
+nav ul li a:hover {
+	color: white;
 }
 
-nav ul li a:hover{
-	color: maroon;
-}
-
-ul li{
+sitemap ul li{
 	list-style: square;
 }
 
-aside{
-	width: 200px;
-	height: 600px;
-	background: black;
-	display: block;
-	float: right;
+section {
+	background: lightblue;
+	width: 650px;
+	height: 500px;
+	border-right: 2px solid;
+	border-color: white;
+	float: left;
+	overflow: auto;
 }
 
-section{
-	width: 600px;
-	clear: both;
+aside {
+	background: lightblue;
+	width: 328px;
+	height: 500px;
 	float: left;
-	background: #501B1F;
-	padding: 10px;
-	margin-right: 35px;
+}
+
+ol {
+	margin: 30px;
 }
 
 #about{
@@ -91,22 +93,23 @@ section{
 
 .albums{
 	float: left;
-	padding-right: 10px;
 }
 
-#galary{
-	width: 600px;
-	height: 200px;
+#galary {
 	background: black;
+	width: 980px;
+	height: 150px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-color: white;
 }
 
 #galary ul {
-	border: 1px solid #fff;
-	overflow: hidden;
-	padding: 5px;
+	
 }
 
 #galary ul li{
+	height: 35px
 	list-style: none;
 	float: left;
 	margin-left: 15px;	
@@ -122,12 +125,9 @@ section{
 }
 
 #sitemap{
-	width: 600px;
-	height: 175px;
-	background-color:#ffffff;
-    border:1px solid black;
-    opacity:0.2;
-    filter:alpha(opacity=60); /* For IE8 and earlier */	
+	background: lightblue;
+	width: 980px;
+	height: 200px;
 }
 
 #sitemap li, h4{
@@ -141,5 +141,11 @@ section{
 }
 
 footer{
+	background: black;
+	color: white;
 	clear: both;
+}
+
+footer a {
+	color: white;
 }
