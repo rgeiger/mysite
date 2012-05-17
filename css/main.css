@@ -17,9 +17,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+	font-family: Imprima, sans-serif;
 	color: black;
 	margin: 20px 30px 0px 30px;
-	padding: 0px 0px 0px 0px;
+	padding: 0px;
 }
 
 header {
@@ -128,7 +129,7 @@ ol {
 }
 
 #galary ul li{
-	height: 35px
+	height: 35px;
 	list-style: none;
 	float: left;
 	margin-right: 25px;	
