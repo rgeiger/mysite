@@ -9,31 +9,31 @@ body {
 	height: 1000px; 
 	margin: auto;
 	padding: 0% 1.020408163265% 0% 1.020408163265%; /*10px*/
-	font-size: 100%; /*16px*/
+	font-size: 1em; /*16px*/
 }
 
 h1 {
-	font-size: 150%; /*24px*/
+	font-size: 1.5em; /*24px*/
 }
 
 h2 {
-	font-size: 112.5%; /*18px*/
+	font-size: 1.125em; /*18px*/
 }
 
 h3 {
-	font-size: 100%; /*16px*/
+	font-size: 1em; /*16px*/
 }
 
 p {
 	font-family: Imprima, sans-serif;
-	font-size: 87.5%; /*14px*/
+	font-size: .875em; /*14px*/
 	color: black;
 	margin: 3.076923076923% 4.615384615385% 0% 4.615384615385%;  /*20px,30px,0px,30px*/
 	padding: 0%;
 }
 
 li {
-	font-size: 87.5%; /*14px*/
+	font-size: .875em; /*14px*/
 }
 
 header {
@@ -185,7 +185,7 @@ img {
 }
 
 #sitemap ul {
-	font-size: 87.5%; /*14px*/
+	font-size: .875em; /*14px*/
 	display: inline;
 	float: left;
 }
