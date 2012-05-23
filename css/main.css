@@ -125,8 +125,8 @@ aside ul li {
 }
 
 #about {
-	-moz-column-count:3; /* Firefox */
-    -webkit-column-count:3; /* Safari and Chrome */
+	/*-moz-column-count:3; /* Firefox */
+    /*-webkit-column-count:3; /* Safari and Chrome */
     column-count:3;
     margin: 4.615384615385%;
 }
@@ -282,7 +282,6 @@ header {
 	background: white;
 }
 header h2 {
-	display: visible;
 	float: left;
 	line-height: 300%;
 }
