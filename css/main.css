@@ -222,8 +222,8 @@ header h2 {
 	display: none;
 }
 #about {
-	-moz-column-count: 1; /* Firefox */
-    -webkit-column-count: 1; /* Safari and Chrome */
+	/* -moz-column-count: 1;  Firefox */
+   /* -webkit-column-count: 1;  Safari and Chrome */
     column-count: 1;
     margin: 4.615384615385%;
 }
