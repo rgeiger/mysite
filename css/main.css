@@ -152,11 +152,15 @@ aside a:hover {
 aside ol {
 	background: #ffffff;
 	width: 65%;
-	height: 110px;
+	height: 92px;
 	margin: auto;
 	margin-bottom: 5px;
 	border: 1px solid;
 	border-radius: 5px;
+}
+
+aside ol li {
+	padding-top: 10px;
 }
 
 aside ul {
