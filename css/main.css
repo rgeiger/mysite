@@ -101,7 +101,7 @@ sitemap ul li{
 section {
 	background: #add8e6;
 	width: 66.326530612245%; /*650px*/
-	height: 700px;
+	height: 720px;
 	border-right: 2px solid;
 	border-color: white;
 	float: left;
@@ -125,7 +125,7 @@ input:focus {
 aside {
 	background: #add8e6;
 	width: 33.469387755102%; /*328px*/
-	height: 700px;
+	height: 720px;
 	float: left;
 }
 
