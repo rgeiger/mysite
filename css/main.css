@@ -12,7 +12,7 @@ html {
 }
 
 body {
-	background: #F0F8FF; /*aliceblue*/ 
+	background: #f0f8ff; /*aliceblue*/ 
 	max-width: 980px;
 	width: 100%; /*980px*/
 	height: 1000px; 
@@ -49,7 +49,7 @@ li {
 }
 
 header {
-	background: #ADD8E6;
+	background: #add8e6;
 	background-image: url(../images/header_bg.png);	
 	background-repeat: no-repeat;
 	width: 100%;
@@ -91,7 +91,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: white;
+	color: #ffffff;
 }
 
 sitemap ul li{
@@ -138,7 +138,7 @@ aside h3 {
 }
 
 aside h4 {
-	padding: 0px;
+	padding: 0%;
 }
 
 aside a {
@@ -231,7 +231,7 @@ img {
 	background: #000000;
 	border-top: 2px solid;
 	border-bottom: 2px solid;
-	border-color: white;
+	border-color: #ffffff;
 }
 
 #galary ul {
@@ -263,7 +263,7 @@ img {
 }
 
 #sitemap {
-	background: #ADD8E6;
+	background: #add8e6;
 	width: 100%;
 	height: 200px;
 }
