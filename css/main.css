@@ -101,7 +101,7 @@ sitemap ul li{
 section {
 	background: #add8e6;
 	width: 66.326530612245%; /*650px*/
-	height: 500px;
+	height: 700px;
 	border-right: 2px solid;
 	border-color: white;
 	float: left;
@@ -116,7 +116,7 @@ section h1, h2 {
 aside {
 	background: #add8e6;
 	width: 33.469387755102%; /*328px*/
-	height: 500px;
+	height: 700px;
 	float: left;
 }
 
@@ -159,6 +159,34 @@ aside ul li {
 	float: left;
 	list-style: none;
 	padding: 0px;
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid;
+	margin: auto;
+}
+
+tr {
+	background: #ffffff;
+}
+
+th {
+	text-align: left;
+	background: #800000;
+	color: #ffffff;
+	padding: 2%;
+}
+
+td {
+	border: 1px solid;
+	font-size: .875em;
+	padding: 2%;
+}
+
+.odd_row {
+	background: #d3d3d3;
 }
 
 #about {
