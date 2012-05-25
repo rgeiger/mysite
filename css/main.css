@@ -1,15 +1,28 @@
+/*================color chart=================*/
+/*
+
+black   - #000000			aliceblue - #f0f8ff
+white   - #ffffff			lightblue - #ADD8E6 
+marooon - #800000			lightgrey - #d3d3d3
+							ivory     - #fffff0
+*/
+
 html {
-	background: ivory;
+	background: #fffff0;
 }
 
 body {
-	background: aliceblue;
+	background: #F0F8FF; /*aliceblue*/ 
 	max-width: 980px;
 	width: 100%; /*980px*/
 	height: 1000px; 
 	margin: auto;
 	padding: 0% 1.020408163265% 0% 1.020408163265%; /*10px*/
 	font-size: 1em; /*16px*/
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: Imprima, sans-serif;
 }
 
 h1 {
@@ -25,9 +38,8 @@ h3 {
 }
 
 p {
-	font-family: Imprima, sans-serif;
 	font-size: .875em; /*14px*/
-	color: black;
+	color: #000000; /*black*/
 	margin: 3.076923076923% 4.615384615385% 0% 4.615384615385%;  /*20px,30px,0px,30px*/
 	padding: 0%;
 }
@@ -37,23 +49,24 @@ li {
 }
 
 header {
-	background: lightblue;
+	background: #ADD8E6;
 	background-image: url(../images/header_bg.png);	
 	background-repeat: no-repeat;
 	width: 100%;
 }
+
 header h2 {
 	display: none;
 }
 
 nav {
-	background: black;
+	background: #000000; 
 	padding: 0%;
 	margin: auto;
 }
 
 nav ul {
-	background: maroon;
+	background: #800000;
 	width: 71.428571%; /*700px*/
 	margin: 0 auto;
 	list-style-type: none;
@@ -70,7 +83,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: lightgrey;
+	color: #d3d3d3;
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
@@ -86,7 +99,7 @@ sitemap ul li{
 }
 
 section {
-	background: lightblue;
+	background: #add8e6;
 	width: 66.326530612245%; /*650px*/
 	height: 500px;
 	border-right: 2px solid;
@@ -101,32 +114,56 @@ section h1, h2 {
 }
 
 aside {
-	background: lightblue;
+	background: #add8e6;
 	width: 33.469387755102%; /*328px*/
 	height: 500px;
 	float: left;
 }
 
-aside h1, h3 {
+aside h1, h3, h4 {
 	margin: 6.09756097561% 0% 0% 3.048780487805%; /*20px,0px,0px,10px*/
 }
 
+aside h3 {
+	padding-bottom: 10px;
+}
+
+aside h4 {
+	padding: 0px;
+}
+
 aside a {
-	color: black;
+	color: #000000;
 }
 
 aside a:hover {
-	color: maroon;
+	color: #800000;
+}
+
+aside ol {
+	background: #ffffff;
+	width: 65%;
+	height: 110px;
+	margin: auto;
+	margin-bottom: 5px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+aside ul {
+	margin: auto;
+	margin-top: 0px;
 }
 
 aside ul li {
 	float: left;
 	list-style: none;
+	padding: 0px;
 }
 
 #about {
-	/*-moz-column-count:3; /* Firefox */
-    /*-webkit-column-count:3; /* Safari and Chrome */
+	-moz-column-count:3; /* Firefox */
+    -webkit-column-count:3;  /*Safari and Chrome */
     column-count:3;
     margin: 4.615384615385%;
 }
@@ -138,7 +175,7 @@ aside ul li {
 .albums {
 	width: 19.230769230769%; /*125px*/
 	border: 2px solid;
-	border-color: white;
+	border-color: #ffffff;
 	margin: 3.076923076923% 1.538461538462% 0% 3.076923076923%;  /*20px,10px,0px,20px*/
 	float: left;
 }
@@ -152,44 +189,50 @@ img {
 }
 
 #galary {
-	background: black;
+	height: 110px;
 	width: 100%;
-	height: 150px;
+	background: #000000;
 	border-top: 2px solid;
 	border-bottom: 2px solid;
 	border-color: white;
 }
 
 #galary ul {
+	width: 71.428571428571%; /*700px*/
+	height: 110px;
+	background: #800000;
 	list-style: none;
 	padding: 0%;
-	margin-left: 30px;
+	margin: auto;
 }
 
 #galary ul li {
-	height: 35px;
+	width: 14%;
+	margin: auto;
+	margin-left: 08.571428571429%;
 	list-style: none;
 	float: left;
-	margin-right: 2.551020408163%;	/*25px*/
+	padding: 0%;
+	overflow: hidden;
 }
 
 #galary ul li a { 
-	border: 5px solid #fff;
+	border: 3px solid #d3d3d3;
 	display: block;
 }
 
 #galary ul li a:hover {
-	border-color: maroon;
+	border-color: #ffffff;
 }
 
 #sitemap {
-	background: lightblue;
+	background: #ADD8E6;
 	width: 100%;
 	height: 200px;
 }
 
 #sitemap li, h4 {
-    color: black;
+    color: #000000;
 }
 
 #sitemap ul {
@@ -198,13 +241,13 @@ img {
 }
 
 footer {
-	background: black;
-	color: white;
+	background: #000000;
+	color: #ffffff;
 	clear: both;
 }
 
 footer a {
-	color: white;
+	color: #ffffff;
 }
 
 /* Media Queries
@@ -216,19 +259,17 @@ footer a {
 	@media screen and (min-width: 768px) and (max-width: 959px) {
 	
 body { 
-	background: ivory; 
+	background: #fffff0; 
 }
 header h2 {
 	display: none;
 }
 #about {
-	/* -moz-column-count: 1;  Firefox */
-   /* -webkit-column-count: 1;  Safari and Chrome */
+	-moz-column-count: 1;  /*Firefox */
+    -webkit-column-count: 1;  /*Safari and Chrome */
     column-count: 1;
     margin: 4.615384615385%;
 }
-
-
 }
 	
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -236,7 +277,7 @@ header h2 {
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 	
 body { 
-	background: ivory; 
+	background: #fffff0; 
 }
 header {
 	background-image: none;
@@ -246,7 +287,7 @@ header h2 {
 	line-height: 300%;
 }
 section {
-	background: lightblue;
+	background: #ADD8E6;
 }
 nav {
 	clear: both;
@@ -259,15 +300,11 @@ nav ul li a {
 	line-height: 30px;
 }
 #about {
-	/*-moz-column-count:1; /* Firefox */
-   /* -webkit-column-count:1; /* Safari and Chrome */
+	-moz-column-count:1; /* Firefox */
+    -webkit-column-count:1; /* Safari and Chrome */
     column-count:1;
     margin: 4.615384615385%;
 }
-
-
-
-
 }
 
 /* Mobile Portrait size to mobile landscape size (devices and browsers)*/
@@ -275,11 +312,11 @@ nav ul li a {
 	@media only screen and (max-width: 479px) {
 
 body { 
-	background: ivory;
+	background: #fffff0;
 }
 header {
 	background-image: none;
-	background: white;
+	background: #ffffff;
 }
 header h2 {
 	float: left;
@@ -288,7 +325,7 @@ header h2 {
 section {
 	width: 100%;
 	float: none;
-	background: white;
+	background: #ffffff;
 }
 aside {
 	width: 100%;
@@ -315,7 +352,7 @@ nav ul li {
 	overflow: hidden;
 }
 nav {
-	background: lightblue;
+	background: #ADD8E6;
 	clear: both;
 }
 nav ul {
@@ -325,22 +362,18 @@ nav ul li a {
 	line-height: 20px;
 }
 nav ul li a:hover {
-	color: maroon;
-	background: white;
+	color: #800000;
+	background: #ffffff;
 }
 #logo {
 	float: left;
 }
 #about {
-	/*-moz-column-count:1; /* Firefox */
-   /* -webkit-column-count:1; /* Safari and Chrome */
+	-moz-column-count:1; /* Firefox */
+    -webkit-column-count:1; /* Safari and Chrome */
     column-count:1;
     margin: 4.615384615385%;
 }
-
-
-		 
-		 
 }
 	
 
